@@ -1,0 +1,49 @@
+Operation: connect, query, update, terminate, exit :connect
+        Host:local
+        Port:3000
+        Username:sangeet
+        Password:123
+                Trying to connect to: local 3000
+                Authentication Failed...
+Operation: connect, query, update, terminate, exit :connect
+        Host:local
+        Port:3000
+        Username:user
+        Password:123
+                Trying to connect to: local 3000
+                Authentication Successfull...
+Operation: connect, query, update, terminate, exit :update
+        Enter new Username:Sangeet
+        Enter new Password:123
+                Credentials updated succesfully
+Operation: connect, query, update, terminate, exit :terminate
+        Terminate 1-Yes 0-No :1
+                Connection closed successfully
+Operation: connect, query, update, terminate, exit :connect
+        Host:local
+        Port:2000
+        Username:user
+        Password:123
+                Trying to connect to: local 2000
+                Authentication Successfull...
+Operation: connect, query, update, terminate, exit :terminate
+        Terminate 1-Yes 0-No :1    
+                Connection closed successfully
+Operation: connect, query, update, terminate, exit :connect
+        Host:local
+        Port:3000
+        Username:user
+        Password:123
+                Trying to connect to: local 3000
+                Authentication Failed...
+Operation: connect, query, update, terminate, exit :connect
+        Host:local
+        Port:3000
+        Username:Sangeet
+        Password:123
+                Trying to connect to: local 3000
+                Authentication Successfull...
+Operation: connect, query, update, terminate, exit :query
+        Query:testQuery
+                 testQuery  Executed successfully
+Operation: connect, query, update, terminate, exit :exit
